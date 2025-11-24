@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -58,6 +58,8 @@
 		58A664FD283E992700F1F6FD /* SVGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815294325B6C90F00E8D23A /* SVGColor.swift */; };
 		58A664FE283E992A00F1F6FD /* SVGPreserveAspectRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815298925B752E600E8D23A /* SVGPreserveAspectRatio.swift */; };
 		58A664FF283E996700F1F6FD /* SVGGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A5C6025E2CCB6000E8B88 /* SVGGradient.swift */; };
+		60FBC4A226F4A7B10087CBBB /* SVGPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FBC4A126F4A7B10087CBBB /* SVGPattern.swift */; };
+		60FBC4A326F4A7B10087CBBB /* SVGPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FBC4A126F4A7B10087CBBB /* SVGPattern.swift */; };
 		58A66500283E999B00F1F6FD /* SVGGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23AA6A24EA5D5F0085D48E /* SVGGroup.swift */; };
 		58A66501283E999D00F1F6FD /* SVGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFA15F2668C7D400AE44BB /* SVGImage.swift */; };
 		58A66502283E999F00F1F6FD /* SVGNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3323A24E144B200BB0D60 /* SVGNode.swift */; };
@@ -121,6 +123,8 @@
 		5BE3327A24E144B200BB0D60 /* SVGParserPrimitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3325A24E144B200BB0D60 /* SVGParserPrimitives.swift */; };
 		5BE3327D24E144B200BB0D60 /* SVGParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3325D24E144B200BB0D60 /* SVGParser.swift */; };
 		5BE3327E24E144B200BB0D60 /* SVGView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BE3325E24E144B200BB0D60 /* SVGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60FBC4912ED4AF6D0087CBBB /* SVGView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE3321D24E1446A00BB0D60 /* SVGView.framework */; };
+		60FBC4922ED4AF6D0087CBBB /* SVGView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE3321D24E1446A00BB0D60 /* SVGView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,7 +135,28 @@
 			remoteGlobalIDString = 5BE3321C24E1446A00BB0D60;
 			remoteInfo = SVGView;
 		};
+		60FBC4932ED4AF6D0087CBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BE3321424E1446A00BB0D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE3321C24E1446A00BB0D60;
+			remoteInfo = SVGView;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60FBC4952ED4AF6D0087CBBB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				60FBC4922ED4AF6D0087CBBB /* SVGView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5815293F25B6C8F600E8D23A /* SVGPaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGPaint.swift; sourceTree = "<group>"; };
@@ -163,6 +188,7 @@
 		58A664F3283E96E700F1F6FD /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 		58A664F6283E977600F1F6FD /* SVGParserExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGParserExtensions.swift; sourceTree = "<group>"; };
 		5B0BD93F24EE669C00F23286 /* DOMParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOMParser.swift; sourceTree = "<group>"; };
+		60FBC4A126F4A7B10087CBBB /* SVGPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGPattern.swift; sourceTree = "<group>"; };
 		5B0BD94124EE66A400F23286 /* SVGView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGView.swift; sourceTree = "<group>"; };
 		5B1017E625358E4400105E9A /* SVGViewport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGViewport.swift; sourceTree = "<group>"; };
 		5B1017EA25358E5600105E9A /* SVGLength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGLength.swift; sourceTree = "<group>"; };
@@ -198,7 +224,12 @@
 		5BE3325A24E144B200BB0D60 /* SVGParserPrimitives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGParserPrimitives.swift; sourceTree = "<group>"; };
 		5BE3325D24E144B200BB0D60 /* SVGParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGParser.swift; sourceTree = "<group>"; };
 		5BE3325E24E144B200BB0D60 /* SVGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGView.h; sourceTree = "<group>"; };
+		60FBC4852ED4AF650087CBBB /* SVGDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		60FBC4862ED4AF650087CBBB /* SVGDemo */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SVGDemo; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5BE3321A24E1446A00BB0D60 /* Frameworks */ = {
@@ -213,6 +244,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BE3322724E1446A00BB0D60 /* SVGView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FBC4822ED4AF650087CBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FBC4912ED4AF6D0087CBBB /* SVGView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +361,9 @@
 			children = (
 				5BE3323724E144B200BB0D60 /* Source */,
 				5BE3322A24E1446A00BB0D60 /* SVGViewTests */,
+				60FBC4862ED4AF650087CBBB /* SVGDemo */,
 				5BE3321E24E1446A00BB0D60 /* Products */,
+				60FBC4902ED4AF6D0087CBBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -331,6 +372,7 @@
 			children = (
 				5BE3321D24E1446A00BB0D60 /* SVGView.framework */,
 				5BE3322624E1446A00BB0D60 /* SVGViewTests.xctest */,
+				60FBC4852ED4AF650087CBBB /* SVGDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -417,6 +459,7 @@
 				5815294325B6C90F00E8D23A /* SVGColor.swift */,
 				5815298925B752E600E8D23A /* SVGPreserveAspectRatio.swift */,
 				585A5C6025E2CCB6000E8B88 /* SVGGradient.swift */,
+				60FBC4A126F4A7B10087CBBB /* SVGPattern.swift */,
 			);
 			path = Primitives;
 			sourceTree = "<group>";
@@ -439,6 +482,13 @@
 				5B0BD94124EE66A400F23286 /* SVGView.swift */,
 			);
 			path = SVG;
+			sourceTree = "<group>";
+		};
+		60FBC4902ED4AF6D0087CBBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -491,13 +541,37 @@
 			productReference = 5BE3322624E1446A00BB0D60 /* SVGViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		60FBC4842ED4AF650087CBBB /* SVGDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FBC48D2ED4AF650087CBBB /* Build configuration list for PBXNativeTarget "SVGDemo" */;
+			buildPhases = (
+				60FBC4812ED4AF650087CBBB /* Sources */,
+				60FBC4822ED4AF650087CBBB /* Frameworks */,
+				60FBC4832ED4AF650087CBBB /* Resources */,
+				60FBC4952ED4AF6D0087CBBB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60FBC4942ED4AF6D0087CBBB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				60FBC4862ED4AF650087CBBB /* SVGDemo */,
+			);
+			name = SVGDemo;
+			packageProductDependencies = (
+			);
+			productName = SVGDemo;
+			productReference = 60FBC4852ED4AF650087CBBB /* SVGDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		5BE3321424E1446A00BB0D60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
+				LastSwiftUpdateCheck = 2610;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					5BE3321C24E1446A00BB0D60 = {
@@ -505,6 +579,9 @@
 					};
 					5BE3322524E1446A00BB0D60 = {
 						CreatedOnToolsVersion = 12.0;
+					};
+					60FBC4842ED4AF650087CBBB = {
+						CreatedOnToolsVersion = 26.1.1;
 					};
 				};
 			};
@@ -523,6 +600,7 @@
 			targets = (
 				5BE3321C24E1446A00BB0D60 /* SVGView */,
 				5BE3322524E1446A00BB0D60 /* SVGViewTests */,
+				60FBC4842ED4AF650087CBBB /* SVGDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -541,6 +619,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5852D66325BD726A00AD201D /* w3c in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FBC4832ED4AF650087CBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +655,7 @@
 				586D5C2F284298BB00C79E0E /* SVGImageParser.swift in Sources */,
 				58A664F4283E96E700F1F6FD /* UIExtensions.swift in Sources */,
 				5815294025B6C8F600E8D23A /* SVGPaint.swift in Sources */,
+				60FBC4A226F4A7B10087CBBB /* SVGPattern.swift in Sources */,
 				58869B7525B5EB0B00F6E324 /* Serializable.swift in Sources */,
 				586D5C492843A51300C79E0E /* SVGLengthAttribute.swift in Sources */,
 				586D5C352842BDEC00C79E0E /* SVGSettings.swift in Sources */,
@@ -637,6 +723,7 @@
 				58A6650B283E99B700F1F6FD /* SVGRect.swift in Sources */,
 				58A66520283E99F900F1F6FD /* Serializable.swift in Sources */,
 				58A66505283E99A600F1F6FD /* SVGUserSpaceNode.swift in Sources */,
+				60FBC4A326F4A7B10087CBBB /* SVGPattern.swift in Sources */,
 				58A66503283E99A100F1F6FD /* SVGShape.swift in Sources */,
 				5852D67725BD74EF00AD201D /* SVG12Tests.swift in Sources */,
 				58A664F5283E96E700F1F6FD /* UIExtensions.swift in Sources */,
@@ -671,6 +758,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60FBC4812ED4AF650087CBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -678,6 +772,11 @@
 			isa = PBXTargetDependency;
 			target = 5BE3321C24E1446A00BB0D60 /* SVGView */;
 			targetProxy = 5BE3322824E1446A00BB0D60 /* PBXContainerItemProxy */;
+		};
+		60FBC4942ED4AF6D0087CBBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BE3321C24E1446A00BB0D60 /* SVGView */;
+			targetProxy = 60FBC4932ED4AF6D0087CBBB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -897,6 +996,84 @@
 			};
 			name = Release;
 		};
+		60FBC48E2ED4AF650087CBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.pandapaw.SVGDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60FBC48F2ED4AF650087CBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.pandapaw.SVGDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -923,6 +1100,15 @@
 			buildConfigurations = (
 				5BE3323524E1446A00BB0D60 /* Debug */,
 				5BE3323624E1446A00BB0D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FBC48D2ED4AF650087CBBB /* Build configuration list for PBXNativeTarget "SVGDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FBC48E2ED4AF650087CBBB /* Debug */,
+				60FBC48F2ED4AF650087CBBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

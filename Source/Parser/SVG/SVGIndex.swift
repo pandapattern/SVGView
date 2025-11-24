@@ -12,6 +12,7 @@ class SVGIndex {
     private var elements = [String: XMLElement]()
     private var paints = [String: SVGPaint]()
     private var cssParser = CSSParser()
+    private var contextSnapshot: ContextSnapshot?
 
     init(element: XMLElement) {
         fill(from: element)
@@ -35,6 +36,8 @@ class SVGIndex {
             switch element.name {
             case "linearGradient", "radialGradient", "fill":
                 paints[id] = parseFill(element)
+            case "pattern":
+                paints[id] = parsePattern(element)
             default:
                 elements[id] = element
             }
@@ -59,6 +62,10 @@ class SVGIndex {
         default:
             return .none
         }
+    }
+
+    private func parsePattern(_ element: XMLElement) -> SVGPaint? {
+        return SVGPattern(element: element, index: self)
     }
 
     private func getParentGradient(_ element: XMLElement) -> SVGGradient? {
@@ -201,6 +208,37 @@ class SVGIndex {
             }
         }
         return defaultValue
+    }
+
+}
+
+extension SVGIndex {
+
+    private struct ContextSnapshot {
+        let logger: SVGLogger
+        let linker: SVGLinker
+        let screen: SVGScreen
+        let defaultFontSize: CGFloat
+    }
+
+    func attach(rootContext: SVGRootContext) {
+        contextSnapshot = ContextSnapshot(
+            logger: rootContext.logger,
+            linker: rootContext.linker,
+            screen: rootContext.screen,
+            defaultFontSize: rootContext.defaultFontSize)
+    }
+
+    func makeRootContext() -> SVGRootContext? {
+        guard let snapshot = contextSnapshot else {
+            return nil
+        }
+        return SVGRootContext(
+            logger: snapshot.logger,
+            linker: snapshot.linker,
+            screen: snapshot.screen,
+            index: self,
+            defaultFontSize: snapshot.defaultFontSize)
     }
 
 }

@@ -32,12 +32,15 @@ public struct SVGParser {
     static public func parse(xml: XMLElement?, settings: SVGSettings = .default) -> SVGNode? {
         guard let xml = xml else { return nil }
 
-        return parse(element: xml, parentContext: SVGRootContext(
+        let index = SVGIndex(element: xml)
+        let rootContext = SVGRootContext(
             logger: settings.logger,
             linker: settings.linker,
             screen: SVGScreen.main(ppi: settings.ppi),
-            index: SVGIndex(element: xml),
-            defaultFontSize: settings.fontSize))
+            index: index,
+            defaultFontSize: settings.fontSize)
+        index.attach(rootContext: rootContext)
+        return parse(element: xml, parentContext: rootContext)
     }
 
     @available(*, deprecated, message: "Use parse(contentsOf:) function instead")
@@ -48,6 +51,10 @@ public struct SVGParser {
     private static func parse(element: XMLElement, parentContext: SVGContext) -> SVGNode? {
         guard let context = parentContext.create(for: element) else { return nil }
         return parse(context: context)
+    }
+
+    static func parse(element: XMLElement, in context: SVGContext) -> SVGNode? {
+        return parse(element: element, parentContext: context)
     }
 
     private static let parsers: [String:SVGElementParser] = [

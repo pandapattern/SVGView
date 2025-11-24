@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="1144px" height="827px" viewBox="238.84 192.84 1144 827" enable-background="new 238.84 192.84 1144 827"
+	 xml:space="preserve">
+<defs>	
+		<pattern  x="187.84" y="1107.84" width="31" height="31" patternUnits="userSpaceOnUse" id="dots_pattern" viewBox="0 -31 31 31" overflow="visible">
+		<g>
+			<polygon fill="none" points="0,0 31,0 31,-31 0,-31 			"/>
+			<polygon fill="#FAF8E9" points="31,0 0,0 0,-31 31,-31 			"/>
+			<path fill="#F5F1D3" d="M5.181-24.931c0,0.587-0.476,1.063-1.062,1.063c-0.587,0-1.063-0.476-1.063-1.063
+				c0-0.585,0.476-1.062,1.063-1.062C4.705-25.992,5.181-25.516,5.181-24.931z"/>
+			<path fill="#F5F1D3" d="M9.625-28.507c0,0.586-0.476,1.063-1.063,1.063c-0.586,0-1.062-0.477-1.062-1.063
+				s0.476-1.062,1.062-1.062C9.149-29.568,9.625-29.093,9.625-28.507z"/>
+			<path fill="#F5F1D3" d="M13.361-17.668c0,0.587-0.476,1.062-1.063,1.062s-1.063-0.475-1.063-1.062
+				c0-0.586,0.476-1.063,1.063-1.063S13.361-18.254,13.361-17.668z"/>
+			<path fill="#F5F1D3" d="M14.777-24.931c0,0.587-0.476,1.063-1.063,1.063s-1.063-0.476-1.063-1.063
+				c0-0.585,0.476-1.062,1.063-1.062S14.777-25.516,14.777-24.931z"/>
+			<path fill="#F5F1D3" d="M30.059-23.871c0,0.586-0.475,1.062-1.063,1.062c-0.586,0-1.062-0.476-1.062-1.062
+				s0.476-1.062,1.062-1.062C29.584-24.933,30.059-24.457,30.059-23.871z"/>
+			<path fill="#F5F1D3" d="M3.178-1.937c0,0.588-0.475,1.063-1.063,1.063c-0.586,0-1.062-0.475-1.062-1.063
+				c0-0.585,0.476-1.062,1.062-1.062C2.703-2.998,3.178-2.521,3.178-1.937z"/>
+			<path fill="#F5F1D3" d="M7.782-10.839c0,0.586-0.476,1.062-1.062,1.062c-0.587,0-1.063-0.476-1.063-1.062
+				c0-0.587,0.476-1.063,1.063-1.063C7.307-11.901,7.782-11.426,7.782-10.839z"/>
+			<path fill="#F5F1D3" d="M22.957-29.157c0,0.586-0.476,1.063-1.063,1.063c-0.586,0-1.062-0.477-1.062-1.063
+				s0.476-1.062,1.062-1.062C22.481-30.219,22.957-29.743,22.957-29.157z"/>
+			<path fill="#F5F1D3" d="M27.293-2.71c0,0.587-0.476,1.062-1.063,1.062c-0.586,0-1.063-0.475-1.063-1.062
+				c0-0.586,0.477-1.062,1.063-1.062C26.817-3.771,27.293-3.296,27.293-2.71z"/>
+			<path fill="#F5F1D3" d="M18.621-4.553c0,0.586-0.475,1.063-1.062,1.063s-1.062-0.477-1.062-1.063s0.475-1.062,1.062-1.062
+				S18.621-5.139,18.621-4.553z"/>
+			<path fill="#F5F1D3" d="M15.695-11.113c0,0.586-0.476,1.062-1.063,1.062s-1.063-0.476-1.063-1.062
+				c0-0.587,0.476-1.063,1.063-1.063S15.695-11.7,15.695-11.113z"/>
+			<path fill="#F5F1D3" d="M3.014-17.885c0,0.587-0.476,1.062-1.063,1.062s-1.063-0.475-1.063-1.062
+				c0-0.586,0.476-1.063,1.063-1.063S3.014-18.471,3.014-17.885z"/>
+			<path fill="#F5F1D3" d="M22.198-16.858c0,0.587-0.476,1.062-1.062,1.062c-0.587,0-1.063-0.475-1.063-1.062
+				c0-0.586,0.476-1.062,1.063-1.062C21.723-17.92,22.198-17.444,22.198-16.858z"/>
+			<path fill="#F5F1D3" d="M27.293-8.996c0,0.586-0.476,1.062-1.063,1.062c-0.586,0-1.063-0.476-1.063-1.062
+				s0.477-1.063,1.063-1.063C26.817-10.059,27.293-9.582,27.293-8.996z"/>
+		</g>
+	</pattern>
+</defs>
+<image display="none" overflow="visible" width="1094" height="844" xlink:href="materiały/76.jpg"  transform="matrix(1.44 0 0 1.44 0 0)">
+</image>
+<path fill="url(#dots_pattern)" stroke="#000000" stroke-miterlimit="10" d="M451,297l232,7.5L672,958
+	c0,0-101.997-0.527-115-2c-53-6-153.792,9.986-157-136.5c-1.5-68.5,19.61-106.523,21.5-175.5c2-73-18-181-18.5-215
+	c17.5,5,47.029-2.47,55.5-39C466.5,355.5,451,297,451,297z"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="570.001" y1="300.847" x2="568.667" y2="388.667"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="619.334" y1="302.441" x2="619.334" y2="384"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="659.334" y1="303.735" x2="658.001" y2="387.333"/>
+<path fill="url(#dots_pattern)" stroke="#000000" stroke-miterlimit="10" d="M288,584.5l83,2.5c0,0-1,45.5-1.5,74.5
+	s6,83.5,6,83.5l-83,6c0,0-10.5-53-31-83C280.5,644.5,288,584.5,288,584.5z"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="748.506" x2="324" y2="585.584"/>
+<path fill="url(#dots_pattern)" stroke="#000000" stroke-miterlimit="10" d="M939,512.5l6,413l-131,3L747.5,553
+	c0,0,32-20,92-32.5S939,512.5,939,512.5z"/>
+<path fill="url(#dots_pattern)" stroke="#000000" stroke-miterlimit="10" d="M751.5,943.5c7.946,3.178,94,13,149.5,14.5
+	s132,5.5,148,5s23,4.5,25,15.5c-15,11-107.434,16.539-172.5,12.5c-72.5-4.5-158-20.5-175.5-30.5C729,944,741.5,939.5,751.5,943.5z"
+	/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="736" y1="954.334" x2="749.333" y2="956"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="1051.666" y1="974.666" x2="1064" y2="974.666"/>
+<path fill="url(#dots_pattern)" stroke="#000000" stroke-miterlimit="10" d="M972.334,311.333
+	C973,316,973,388.667,973,388.667s-20.332-23.333-68.666-26s-116,2-116,2l-2.667-44.334c0,0,123.999-37.666,127.999-39
+	C924,304.333,952.334,311.666,972.334,311.333z"/>
+<path fill="url(#dots_pattern)" stroke="#000000" stroke-miterlimit="10" d="M1211,295
+	c-4.334,31.667,23.666,63.334,60,66.667c19.334-7.334,48.334-14.333,48.334-14.333l3.666,296l4.666,310
+	c0,0-103.043,2.145-153.666,0.002c-86.666-3.668-124-41.334-128-93.668c-5.27-68.936,9.74-108.451,13.334-160.666
+	c5-72.666-20-146.667-21.668-226.334c57.334,5.667,87.334-35.333,46-135.999C1088,335.669,1211,295,1211,295z"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="1277.666" y1="954.336" x2="1271" y2="361.667"/>
+<circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="1271.666" cy="442.669" r="5.668"/>
+<circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="1273" cy="526.336" r="5.668"/>
+<circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="900" cy="979.84" r="5.174"/>
+<circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="305.507" cy="740.414" r="4.574"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="305.507" y1="590.507" x2="305.507" y2="600.507"/>
+<line fill="url(#dots_pattern)" stroke="#000000" stroke-miterlimit="10" x1="1063.84" y1="832.34" x2="1075.34" y2="832.34"/>
+<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="399.84,804.84 392.173,815.84 400.506,816.84 "/>
+<path fill="none" stroke="#BA0000" stroke-miterlimit="10" stroke-dasharray="1,2,4,2" d="M401,817c18.5,92,79.5,95.5,133.5,100.5
+	c49.329,4.568,100.5,3,100.5,3s9-577.5,9.5-594c-29-5.5-65-20.5-62-69C572,261.5,451,297,451,297c26.5,59,35,145.5-48,134"/>
+<path fill="none" stroke="#BA0000" stroke-miterlimit="10" stroke-dasharray="1,2,4,2" d="M786,320c0,0,35.23,96.809,2.5,121
+	c-23,17-51,16-51,16v5l238,0.5c0,0-1.5-107-2-114.5c-29-4-61.5-20-59.5-66.5"/>
+<path fill="none" stroke="#BA0000" stroke-miterlimit="10" stroke-dasharray="1,2,4,2" d="M1210.5,295.5c0,0-17.5,175.5-13.5,218.5
+	s12.5,73.5,77,80s74,3.5,74,3.5l5.5,356.5l-26-0.5"/>
+<polygon fill="none" stroke="#BA0000" stroke-miterlimit="10" stroke-dasharray="1,2,4,2" points="1264,595.5 1291.5,616.5 
+	1262,616 1290.5,595.5 "/>
+<polyline fill="none" stroke="#5E91B5" stroke-miterlimit="10" stroke-dasharray="4,2" points="1272.297,477 1037.666,477 
+	1042.5,838 "/>
+<line fill="none" stroke="#5E91B5" stroke-miterlimit="10" stroke-dasharray="4,2" x1="747.5" y1="553" x2="939.617" y2="555.001"/>
+<polyline fill="none" stroke="#5E91B5" stroke-miterlimit="10" stroke-dasharray="4,2" points="1271,361.667 1270.666,294.333 
+	1083,295 1084.666,477 "/>
+<line fill="none" stroke="#5E91B5" stroke-miterlimit="10" stroke-dasharray="4,2" x1="1285.334" y1="357.667" x2="1286.666" y2="595.333"/>
+<line fill="none" stroke="#5E91B5" stroke-miterlimit="10" stroke-dasharray="4,2" x1="1083.334" y1="336.333" x2="1271" y2="335.667"/>
+<line fill="none" stroke="#5E91B5" stroke-miterlimit="10" stroke-dasharray="4,2" x1="710.5" y1="981.5" x2="1078" y2="1002.5"/>
+<text transform="matrix(1 0 0 1 770.0879 240)" class="header"><tspan x="0" y="0" class="italic">The</tspan><tspan x="41.086" y="0"> Shirt System</tspan></text>
+<rect x="761" y="214" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="222" height="36"/>
+<text transform="matrix(1 0 0 1 500 478.668)" class="part">Back</text>
+<text transform="matrix(1 0 0 1 817 651.668)" class="part">Sleeve</text>
+<text transform="matrix(1 0 0 1 838 329.668)" class="part">Yoke</text>
+<text transform="matrix(0.9941 0.1089 -0.1089 0.9941 770.7114 969.0293)" class="part">Collar</text>
+<text transform="matrix(1 0 0 1 302 623.668)" class="part">Cuff</text>
+<text transform="matrix(1 0 0 1 1109 571.668)" class="part">Front</text>
+<text transform="matrix(1 0 0 1 496 503)" class="diagram">DIA.3</text>
+<text transform="matrix(1 0 0 1 305 647)" class="diagram">DIA.5</text>
+<text transform="matrix(1 0 0 1 816 676)" class="diagram">DIA.4</text>
+<text transform="matrix(1 0 0 1 936 982)" class="diagram">DIA.6</text>
+<text transform="matrix(1 0 0 1 1108 599)" class="diagram">DIA.1</text>
+<text transform="matrix(1 0 0 1 835 352)" class="diagram">DIA.2</text>
+<text transform="matrix(1 0 0 1 1067.9883 291)" class="number">9</text>
+<text transform="matrix(1 0 0 1 1067.9883 336.333)" class="number">9</text>
+<text transform="matrix(1 0 0 1 1259.8203 471.333)" class="number">9</text>
+<text transform="matrix(1 0 0 1 1257.2734 948)" class="number">36</text>
+<text transform="matrix(1 0 0 1 1205 291)" class="number">2½</text>
+<text transform="matrix(1 0 0 1 1276.75 335)" class="number">2½</text>
+<text transform="matrix(1 0 0 1 1004.9648 478.668)" class="number">11½</text>
+<text transform="matrix(1 0 0 1 1040 677.168)" class="number">1½</text>
+<text transform="matrix(1 0 0 1 945 518.668)" class="number">2½</text>
+<text transform="matrix(1 0 0 1 662.5596 349)" class="number">2½</text>
+<text transform="matrix(0 -1 1 0 966.3398 338)" class="number">1¼</text>
+<text transform="matrix(1 0 0 1 771.4053 370.1309)" class="number">¼</text>
+<text transform="matrix(1 0 0 1 890.6133 1008.166)" class="number">7½</text>
+<text transform="matrix(1 0 0 1 710.5 995.834)" class="number">15</text>
+<text transform="matrix(1 0 0 1 611.4766 913.501)" class="number">36</text>
+<text transform="matrix(1 0 0 1 625.1431 951.835)" class="number">38</text>
+<text transform="matrix(0 -1 1 0 582.5073 941.9844)" class="number">2</text>
+<text transform="matrix(1 0 0 1 287.0703 768.0801)" class="number">1½</text>
+<text transform="matrix(1 0 0 1 368.4033 763.0801)" class="number">1¾</text>
+<text transform="matrix(1 0 0 1 375.5 672.7471)" class="number">1¾</text>
+<text transform="matrix(1 0 0 1 364.167 581.4131)" class="number">1¾</text>
+<text transform="matrix(1 0 0 1 282.5 579.4131)" class="number">1½</text>
+<text transform="matrix(1 0 0 1 268.166 672.7471)" class="number">2¼</text>
+<text transform="matrix(1 0 0 1 328.833 672.7471)" class="number">4¼</text>
+<text transform="matrix(1 0 0 1 331.833 740.4141)" class="number">8½</text>
+<text transform="matrix(1 0 0 1 1083.6729 1005.167)" class="number">0</text>
+<text transform="matrix(1 0 0 1 1078 977.5)" class="number">1</text>
+<text transform="matrix(1 0 0 1 900 954)" class="number">7</text>
+<text transform="matrix(1 0 0 1 951.5 928.5)" class="number">17</text>
+<text transform="matrix(1 0 0 1 819.5 920.7598)" class="number">6</text>
+<text transform="matrix(1 0 0 1 947.3398 558.3398)" class="number">0</text>
+<text transform="matrix(1 0 0 1 734.8281 558.001)" class="number">9</text>
+<text transform="matrix(1 0 0 1 713.3335 962)" class="number">7</text>
+<text transform="matrix(1 0 0 1 1316.25 339)" class="number">2</text>
+<text transform="matrix(1 0 0 1 1082.584 493.5)" class="number">9</text>
+<text transform="matrix(1 0 0 1 1088.25 431)" class="number">1</text>
+<text transform="matrix(1 0 0 1 1259.8203 353)" class="number">3</text>
+<text transform="matrix(1 0 0 1 1271 291)" class="number">0</text>
+</svg>
+

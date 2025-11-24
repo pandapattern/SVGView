@@ -32,6 +32,8 @@ extension View {
                 radialGradient.apply(view: self, model: model)
             case let color as SVGColor:
                 color.apply(view: self, model: model)
+            case let pattern as SVGPattern:
+                pattern.apply(view: self, model: model)
             default:
                 fatalError("Base SVGPaint is not convertable to SwiftUI")
             }
