@@ -58,8 +58,6 @@
 		58A664FD283E992700F1F6FD /* SVGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815294325B6C90F00E8D23A /* SVGColor.swift */; };
 		58A664FE283E992A00F1F6FD /* SVGPreserveAspectRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815298925B752E600E8D23A /* SVGPreserveAspectRatio.swift */; };
 		58A664FF283E996700F1F6FD /* SVGGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A5C6025E2CCB6000E8B88 /* SVGGradient.swift */; };
-		60FBC4A226F4A7B10087CBBB /* SVGPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FBC4A126F4A7B10087CBBB /* SVGPattern.swift */; };
-		60FBC4A326F4A7B10087CBBB /* SVGPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FBC4A126F4A7B10087CBBB /* SVGPattern.swift */; };
 		58A66500283E999B00F1F6FD /* SVGGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23AA6A24EA5D5F0085D48E /* SVGGroup.swift */; };
 		58A66501283E999D00F1F6FD /* SVGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFA15F2668C7D400AE44BB /* SVGImage.swift */; };
 		58A66502283E999F00F1F6FD /* SVGNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3323A24E144B200BB0D60 /* SVGNode.swift */; };
@@ -125,6 +123,8 @@
 		5BE3327E24E144B200BB0D60 /* SVGView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BE3325E24E144B200BB0D60 /* SVGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60FBC4912ED4AF6D0087CBBB /* SVGView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE3321D24E1446A00BB0D60 /* SVGView.framework */; };
 		60FBC4922ED4AF6D0087CBBB /* SVGView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE3321D24E1446A00BB0D60 /* SVGView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		60FBC4A226F4A7B10087CBBB /* SVGPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FBC4A126F4A7B10087CBBB /* SVGPattern.swift */; };
+		60FBC4A326F4A7B10087CBBB /* SVGPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FBC4A126F4A7B10087CBBB /* SVGPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,7 +188,6 @@
 		58A664F3283E96E700F1F6FD /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 		58A664F6283E977600F1F6FD /* SVGParserExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGParserExtensions.swift; sourceTree = "<group>"; };
 		5B0BD93F24EE669C00F23286 /* DOMParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOMParser.swift; sourceTree = "<group>"; };
-		60FBC4A126F4A7B10087CBBB /* SVGPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGPattern.swift; sourceTree = "<group>"; };
 		5B0BD94124EE66A400F23286 /* SVGView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGView.swift; sourceTree = "<group>"; };
 		5B1017E625358E4400105E9A /* SVGViewport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGViewport.swift; sourceTree = "<group>"; };
 		5B1017EA25358E5600105E9A /* SVGLength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGLength.swift; sourceTree = "<group>"; };
@@ -225,6 +224,7 @@
 		5BE3325D24E144B200BB0D60 /* SVGParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGParser.swift; sourceTree = "<group>"; };
 		5BE3325E24E144B200BB0D60 /* SVGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGView.h; sourceTree = "<group>"; };
 		60FBC4852ED4AF650087CBBB /* SVGDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FBC4A126F4A7B10087CBBB /* SVGPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */

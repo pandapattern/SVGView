@@ -7,7 +7,36 @@
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
 	 x="0px" y="0px" width="1144px" height="827px" viewBox="238.84 192.84 1144 827" enable-background="new 238.84 192.84 1144 827"
 	 xml:space="preserve">
-<defs>	
+	 <style type="text/css">
+text {
+  font-family: Liberation Serif, serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+.header {
+  font-size: 28px;
+}
+.header .italic {
+  font-style: italic;
+  font-weight: normal;
+}
+.number {
+  font-size: 14px;
+}
+.diagram {
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-family: Liberation Sans, sans-serif;
+  font-weight: normal;
+}
+.part {
+  font-style: italic;
+}
+
+
+	 </style>
+<defs>
+	
 		<pattern  x="187.84" y="1107.84" width="31" height="31" patternUnits="userSpaceOnUse" id="dots_pattern" viewBox="0 -31 31 31" overflow="visible">
 		<g>
 			<polygon fill="none" points="0,0 31,0 31,-31 0,-31 			"/>
@@ -145,4 +174,3 @@
 <text transform="matrix(1 0 0 1 1259.8203 353)" class="number">3</text>
 <text transform="matrix(1 0 0 1 1271 291)" class="number">0</text>
 </svg>
-

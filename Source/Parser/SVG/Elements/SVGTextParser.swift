@@ -15,15 +15,32 @@ class SVGTextParser: SVGBaseElementParser {
         let font = SVGFont(name: fontName, size: fontSize, weight: fontWeight)
         let textAnchor = parseTextAnchor(context.style("text-anchor"))
 
+        // Collect text content from direct text nodes and tspan elements
+        var textContent = ""
+        for content in context.element.contents {
+            if let textNode = content as? XMLText {
+                textContent += textNode.text
+            } else if let tspanElement = content as? XMLElement, tspanElement.name == "tspan" {
+                // Collect text from tspan elements
+                for tspanContent in tspanElement.contents {
+                    if let tspanText = tspanContent as? XMLText {
+                        textContent += tspanText.text
+                    }
+                }
+            }
+        }
+        
+        guard !textContent.isEmpty else {
+            return .none
+        }
+        
+        // Keep original transform logic unchanged (transform attribute is handled by SVGBaseElementParser)
         let x = SVGHelper.parseCGFloat(context.properties, "x")
         let y = SVGHelper.parseCGFloat(context.properties, "y")
         let transform = CGAffineTransform(translationX: x, y: y)
 
-        if let textNode = context.element.contents.first as? XMLText {
-            let trimmed = textNode.text.trimmingCharacters(in: .whitespacesAndNewlines).processingWhitespaces()
-            return SVGText(text: trimmed, font: font, fill: SVGHelper.parseFill(context.styles, context.index), stroke: SVGHelper.parseStroke(context.styles, index: context.index), textAnchor: textAnchor, transform: transform)
-        }
-        return .none
+        let trimmed = textContent.trimmingCharacters(in: .whitespacesAndNewlines).processingWhitespaces()
+        return SVGText(text: trimmed, font: font, fill: SVGHelper.parseFill(context.styles, context.index), stroke: SVGHelper.parseStroke(context.styles, index: context.index), textAnchor: textAnchor, transform: transform)
     }
 
     private func parseTextAnchor(_ string: String?) -> HorizontalAlignment {
